@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="psnq.css">
+        <title>&#2312;</title>
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar" id="dropdownClick">
+                <li><a href="#">psnqs</a></li>
+                <li class="cent"><a href="#">store</a></li>
+                <li class="righ"><a href="#">about</a></li>
+                <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <table>
+            <tr class="leftfolder">
+                <td>
+                    <img src="zip.png" class="topleft">
+                </td>
+                <td>
+                    <img src="rename.png" class="rightfolder">
+                </td>
+            </tr>
+            <tr class="logo">
+                <td colspan="2">
+                    <img src="pppp.png" class="logoimg">
+                </td>
+            </tr>
+            <tr class="leftfolder">
+                <td colspan="2">
+                    <img src="zip.png" class="downbelow">
+                </td>
+            </tr>
+        </table>
+
+        <script>
+            function dropdownMenu () {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "navbar"){
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+    </body>
+</html>
