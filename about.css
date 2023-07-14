@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+.container {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(156, 154, 154);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px rgb(167, 167, 167);
+}
+.container .titlebar {
+    background: linear-gradient(to right,rgb(3, 3, 216),rgb(69, 140, 247));
+    margin: 5px;
+    padding: 4px 6px;
+}
+.titlebar h4 {
+    margin: 0;
+    color: rgb(221, 221, 221);
+    font-family: "Super Legend Boy";
+    font-weight: 400;
+}
+.content .row {
+    align-items: center;
+}
+.content .row .col-3{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+.content .row .col-3 img {
+    width: 90%;
+    border: 1px solid red;
+    padding: 5px;
+    margin: auto;
+}
